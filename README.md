@@ -1,4 +1,5 @@
 This project is the product of a collaboration between myself and the brilliant Shafin Siddique.
+To run this project, you will need python 3.0 or grater installed.
 
 # Autocompletion-Tool
 
@@ -9,8 +10,6 @@ problem domains, one of which is a text-based autocompletion tool similar to wha
 like Google use.
 
 The Autocompleter Assignment made use of two implementations of a "prefix tree" data structure, which allows clients to autocomplete on text or music from .csv input files. 
-
-To run this project, you will need python 3.0 or grater installed.
 
 Autocompleter operations
 An Autocompleter supports the following operations:
