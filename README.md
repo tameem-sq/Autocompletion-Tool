@@ -12,11 +12,17 @@ like Google use.
 The Autocompleter Assignment made use of two implementations of a "prefix tree" data structure, which allows clients to autocomplete on text or music from .csv input files. 
 
 Autocompleter operations
+
 An Autocompleter supports the following operations:
+
 size: Return how many values are stored by the Autocompleter.
+
 insert: Insert a value into the Autocompleter with an associated weight and prefix sequence.
+
 autocomplete: Return a list of values in the Autocompleter that match a given prefix. The user may
+
 optionally specify a limit on the number of values returned (more on this later).
+
 remove: Remove all values in the Autocompleter that match a given prefix.
 
 It is mainly the autocomplete operation that distinguishes prefix trees from the data structures we have
